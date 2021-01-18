@@ -1,0 +1,96 @@
+
+
+/*
+
+font-family: 'Abel', sans-serif;
+
+*/
+
+@font-face {
+  font-family: donGraffiti;
+  src: url(fonts/DonGraffiti.otf);
+}
+
+
+*{
+	box-sizing: border-box;
+}
+
+/* GENERAL */
+a, a:hover{
+	text-decoration: none;
+}
+
+
+#logo{
+	width: 70px;
+	height: 50px;
+}
+
+#navbarNav{
+	/*font-family: 'Abel', sans-serif;*/
+	font-family: donGraffiti, sans-serif;
+	font-size: 1.5rem;
+}
+
+.navbar{
+	background-image: linear-gradient(to right, #2598f8, #1167b1);
+}
+
+/* BANNER SECTION */
+#banner{
+	background-image: linear-gradient(to right, #2598f8, #1167b1);
+	color: #fff;
+	padding-top: 10px;
+}
+
+#banner a#btn-play{
+	font-size: 2rem;
+	color: white;
+}
+
+#header-right img{
+	/*height: 60vh;*/
+}
+
+#bottom-img{
+	width: 100%;
+}
+
+.cards{
+	font-size: 7rem;
+	color: white;
+}
+
+.card{
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	background-size: cover;
+	min-height: 250px;
+	padding-bottom: 20px;
+}
+
+.card i{
+	padding-bottom: 1rem;
+}
+
+.card1{
+	background-image: url("../images/image-background-card1.png");
+	background-position: center;
+}
+
+.card2{
+	background-image: url("../images/image-background-card2.png");
+	background-position: center;
+}
+
+.card3{
+	background-image: url("../images/image-background-card3.png");
+	background-position: center;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+}
