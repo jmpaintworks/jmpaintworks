@@ -96,5 +96,8 @@ a, a:hover{
 
 
 @media only screen and (max-width: 768px) {
-
+	.navbar{
+		/*background-image: linear-gradient(to right, #2598f8, #1167b1);*/
+		background-color: rgba(44,44,44,1) !important;
+	}
 }
