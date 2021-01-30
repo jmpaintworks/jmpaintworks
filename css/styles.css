@@ -34,14 +34,19 @@ a, a:hover{
 }
 
 .navbar{
-	background-image: linear-gradient(to right, #2598f8, #1167b1);
+	/*background-image: linear-gradient(to right, #2598f8, #1167b1);*/
+	background-color: rgba(44,44,44,0.4) !important;
+}
+
+.navbar.scrolled{
+	background-color: rgba(44,44,44,1) !important;
 }
 
 /* BANNER SECTION */
 #banner{
 	background-image: linear-gradient(to right, #2598f8, #1167b1);
 	color: #fff;
-	padding-top: 10px;
+	padding-top: 100px;
 }
 
 #banner a#btn-play{
@@ -68,7 +73,6 @@ a, a:hover{
   	align-items: center;
   	background-size: cover;
 	min-height: 250px;
-	padding-bottom: 20px;
 }
 
 .card i{
